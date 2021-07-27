@@ -1,0 +1,137 @@
+header{
+	padding:20px 100px
+}
+.logo{
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 120px;
+}
+.main-nav{
+	display: inline-block;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+.main-nav li{
+	display: inline-block;
+	margin-right: 45px;
+	color: #181C28;
+	font-size: 16px;
+}
+.main-nav li :hover{
+	color: #FF7A00;
+}
+.main-nav li a{
+	color: #181C28;
+	transition: 0.5s;
+}
+.banner-section img{
+	width: 100%;
+}
+.banner-section{
+	position: relative;
+}
+.banner-text{
+	text-align: center;
+	position: absolute;
+	top: 55%;
+	left: 45%;
+	transform: translate(-50px, -50px);
+}
+.banner-text p{
+	font-size: 22px;
+	color: #FFFFFF;
+}
+.banner-text h2{
+	font-size: 48px;
+	color: #FFFFFF;
+}
+.popular{
+	
+	padding-top: 85px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 85px;
+}
+.popular h2{
+	color: #FF7A00;
+	font-size: 22px;
+	margin-bottom: 80px;
+	text-shadow: 2px 2px yellow;
+}
+.flex-div{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.popular .flex-div article{
+	width: 47%;
+	padding-bottom: 60px;
+}
+.popular .flex-div article h3 {
+	font-size: 36px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #181C28;
+}
+.popular .flex-div article p{
+	font-size: 16px;
+	padding-bottom: 25px;
+	color: #7B7B7B;
+}
+.popular .flex-div article a{
+	font-size: 14px;
+	color: #FF7A00;
+}
+.load-more{
+	padding: 10px;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color:#FF7A00 ;
+	display:inline-block;
+	margin-left: 600px;
+	padding: 20px;
+	border-radius: 15px;
+}
+.load-more a{
+	color: #ffffff;
+	padding: 20px;
+	text-shadow: 2px 2px red;
+}
+.load-more :hover{
+	color: black;
+	transition: 0.5s;
+}
+.footer-flex{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.footer-flex article ul li{
+	padding-bottom: 20px;
+	color: #7B7B7B;
+}
+.footer-flex article h2{
+	margin-bottom: 23px;
+	margin-top: 80px;
+}
+.cards{
+	width: 50px;
+	height: 35px;
+}
+.last-p{
+	color:#7B7B7B;
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 47px;
+	margin-bottom: 130px;
+	margin-right: 160px;
+}
+h2{
+	font-family: playfair,sans-serif;
+}
+p{
+	font-family: poppins,cursive;
+}
+li{
+	font-family: poppins,fantasy;
+}

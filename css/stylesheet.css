@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Poppins-Regular.woff2') format('woff2'),
+        url('../fonts/Poppins-Regular.woff') format('woff'),
+        url('../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'playfair';
+    src: url('../fonts/PlayfairDisplay-Bold.eot');
+    src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../fonts/PlayfairDisplay-Bold.woff') format('woff'),
+        url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
